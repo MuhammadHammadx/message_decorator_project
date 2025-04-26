@@ -70,7 +70,7 @@ Output:
 *******************
 * Python is fun!  *
 *******************
-![Output Screenshot](projectoutput.png)
+![Output Screenshot](display.png)
 
 📚 Notes
 Make sure you are inside the src/ folder while running the command.
