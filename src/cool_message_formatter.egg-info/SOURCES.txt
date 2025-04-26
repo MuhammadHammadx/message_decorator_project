@@ -1,0 +1,7 @@
+pyproject.toml
+src/cool_message_formatter/main.py
+src/cool_message_formatter/message_formatter.py
+src/cool_message_formatter.egg-info/PKG-INFO
+src/cool_message_formatter.egg-info/SOURCES.txt
+src/cool_message_formatter.egg-info/dependency_links.txt
+src/cool_message_formatter.egg-info/top_level.txt
