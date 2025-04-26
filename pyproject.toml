@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Add this inside the [project] section of pyproject.toml
+
+[project.scripts]
+cool-message = "cool_message_formatter.main:main" # If you wrap your main.py code in a main() function
+# Or, if you want to run the file directly (simpler for this assignment):
+# No direct way in pyproject.toml to just run a file easily like this.
+# We'll run it using `python -m cool_message_formatter.main` later.
+
+name = "cool_message_formatter" # Choose a unique package name!
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+description = "A fun message formatter using Python decorators."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Optional: choose a license
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/your_username/your_repo_name" # Optional: Link to your repo
